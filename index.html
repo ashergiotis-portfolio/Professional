@@ -9,120 +9,140 @@
     <style>
         .glass-card { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); border: 1px solid #e2e8f0; }
         .gradient-text { background: linear-gradient(90deg, #1a365d, #2ea44f); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .stat-card { border-left: 4px solid #2ea44f; background: #f8fafc; transition: 0.3s; }
+        .stat-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-900 font-sans leading-relaxed">
 
     <nav class="sticky top-0 z-50 glass-card py-4 shadow-sm">
-        <div class="max-w-5xl mx-auto px-6 flex justify-between items-center">
+        <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
             <span class="font-bold text-xl tracking-tight gradient-text">ASHER GIOTIS</span>
-            <div class="space-x-6 text-sm font-semibold text-slate-600 uppercase tracking-widest">
-                <a href="#about" class="hover:text-green-600 transition">About</a>
-                <a href="#strategy" class="hover:text-green-600 transition">Strategy</a>
-                <a href="#experience" class="hover:text-green-600 transition">Experience</a>
+            <div class="hidden md:flex space-x-8 text-xs font-bold text-slate-500 uppercase tracking-widest">
+                <a href="#manifesto" class="hover:text-green-600 transition">Manifesto</a>
+                <a href="#methodology" class="hover:text-green-600 transition">Methodology</a>
+                <a href="#deployments" class="hover:text-green-600 transition">Deployments</a>
                 <a href="#insights" class="hover:text-green-600 transition">Insights</a>
             </div>
         </div>
     </nav>
 
-    <section class="max-w-5xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-12">
-        <div class="md:w-1/3">
-            <img src="asher-beach-profile.jpg" alt="Asher GiOtis" class="rounded-2xl shadow-2xl border-4 border-white transform -rotate-2 hover:rotate-0 transition duration-500">
+    <section class="max-w-6xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-16">
+        <div class="md:w-2/5">
+            <img src="PXL_20260405_155116585.jpg" alt="Asher GiOtis" class="rounded-2xl shadow-2xl border-8 border-white transform -rotate-1 hover:rotate-0 transition duration-500">
         </div>
-        <div class="md:w-2/3 space-y-6">
-            <h1 class="text-5xl font-extrabold text-slate-900 leading-tight">Neutralizing <span class="text-green-600">Emotional Debt</span> in High-Stakes Operations.</h1>
-            <p class="text-xl text-slate-600 font-medium italic">"The most dangerous silent killer of margin is recursive friction."</p>
-            <p class="text-lg text-slate-700">I am a Trauma-Informed Operational Architect specializing in <strong>Sovereign Perimeter Design</strong>. With 20 years of experience, I build the systems that allow $100M+ firms to scale without trauma.</p>
-            <div class="flex gap-4 pt-4">
-                <a href="https://www.linkedin.com/in/asher-giotis-813b1481/" target="_blank" class="bg-slate-900 text-white px-6 py-3 rounded-lg font-bold hover:bg-green-700 transition"><i class="fab fa-linkedin mr-2"></i> LinkedIn</a>
-                <a href="https://medium.com/dudeletmejam" target="_blank" class="border-2 border-slate-900 px-6 py-3 rounded-lg font-bold hover:bg-slate-100 transition"><i class="fab fa-medium mr-2"></i> Medium</a>
-            </div>
-        </div>
-    </section>
-
-    <section id="strategy" class="bg-slate-900 text-white py-20">
-        <div class="max-w-5xl mx-auto px-6">
-            <h2 class="text-3xl font-bold mb-12 border-l-4 border-green-500 pl-6 text-green-400">THE SOVEREIGN PERIMETER</h2>
-            <div class="grid md:grid-cols-3 gap-8 text-slate-300">
-                <div class="p-6 bg-slate-800 rounded-xl">
-                    <h3 class="text-white font-bold mb-3 text-lg">Systems Architecture</h3>
-                    <p>Designing BPO logic, UX micro-copy gating, and API synchronization to ensure 100% operational sovereignty.</p>
-                </div>
-                <div class="p-6 bg-slate-800 rounded-xl">
-                    <h3 class="text-white font-bold mb-3 text-lg">Emotional Debt Neutralization</h3>
-                    <p>Mathematically reducing the 'interest rate' paid by front-line teams to secure enterprise-level margins.</p>
-                </div>
-                <div class="p-6 bg-slate-800 rounded-xl">
-                    <h3 class="text-white font-bold mb-3 text-lg">28-Day Binary Pivot</h3>
-                    <p>Proprietary framework for rapid-deployment and recovery in high-compliance, high-friction environments.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="experience" class="max-w-5xl mx-auto px-6 py-20">
-        <h2 class="text-4xl font-extrabold mb-12 tracking-tight">Deployment History & Operational Wins</h2>
-        <div class="space-y-16">
-            
-            <div class="border-l-4 border-green-500 pl-8 relative">
-                <div class="absolute -left-[11px] top-0 w-5 h-5 rounded-full bg-green-500 shadow-lg"></div>
-                <h4 class="font-bold text-2xl text-slate-900">OpenLoop Health</h4>
-                <p class="text-sm font-bold text-green-700 uppercase tracking-widest mb-4">Patient Experience Strategist & Systems Architect</p>
-                <ul class="list-disc list-inside text-slate-700 space-y-2 ml-2">
-                    <li>Architected end-to-end patient experience workflows for a leading nationwide health-tech platform.</li>
-                    <li>Neutralized recursive friction in clinician-patient interactions by deploying clear UX micro-copy gating.</li>
-                    <li>Secured high-compliance operational sovereignty during rapid platform scaling.</li>
-                </ul>
-            </div>
-
-            <div class="border-l-4 border-slate-300 pl-8 relative">
-                <div class="absolute -left-[11px] top-0 w-5 h-5 rounded-full bg-slate-300"></div>
-                <h4 class="font-bold text-2xl text-slate-900">Truepill</h4>
-                <p class="text-sm font-bold text-slate-500 uppercase tracking-widest mb-4">Operations System Analyst | Capabilities Team</p>
-                <ul class="list-disc list-inside text-slate-700 space-y-2 ml-2">
-                    <li>Engineered complex operational system logic to manage high-volume pharmacy and lab fulfillment.</li>
-                    <li>Synchronized API logic and BPO scripting to reduce "Emotional Debt" for over-capacity front-line teams.</li>
-                    <li>Managed cross-functional IP assets for a hyper-growth unicorn in the digital health space.</li>
-                </ul>
-            </div>
-
-            <div class="border-l-4 border-slate-300 pl-8 relative">
-                <div class="absolute -left-[11px] top-0 w-5 h-5 rounded-full bg-slate-300"></div>
-                <h4 class="font-bold text-2xl text-slate-900">Plume</h4>
-                <p class="text-sm font-bold text-slate-500 uppercase tracking-widest mb-4">Patient Care Coordinator Manager</p>
-                <ul class="list-disc list-inside text-slate-700 space-y-2 ml-2">
-                    <li>Led a diverse team of coordinators through a high-stakes pivot in patient support center operations.</li>
-                    <li>Redesigned care coordination protocols to ensure high-compliance and patient safety in a sensitive demographic.</li>
-                    <li>Neutralized operational debt by automating repetitive triage tasks, increasing throughput by 40%.</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section id="insights" class="bg-slate-900 text-white py-20 border-t border-slate-800">
-        <div class="max-w-5xl mx-auto px-6">
-            <h2 class="text-3xl font-bold mb-4 italic text-green-400">The Black Box Manifesto</h2>
-            <p class="text-slate-400 mb-12 max-w-2xl text-lg">
-                Strategic thought leadership on operational architecture, margin recovery, and the mathematical equations of efficiency.
+        <div class="md:w-3/5 space-y-8">
+            <h1 class="text-6xl font-black text-slate-900 leading-tight">Neutralizing <span class="text-green-600">Emotional Debt</span> in High-Stakes Operations.</h1>
+            <p class="text-2xl text-slate-500 font-medium italic">Translating complexity into clarity for distributed teams[cite: 70, 71].</p>
+            <p class="text-xl text-slate-700 max-w-2xl">
+                I am a Trauma-Informed Operational Architect[cite: 112]. With 20 years of experience, I build the <strong>Sovereign Perimeters</strong> that allow $100M+ firms to scale without the trauma of recursive friction[cite: 60, 62].
             </p>
-            
-            <div class="grid md:grid-cols-2 gap-8">
-                <a href="https://medium.com/@ashergiotis/neutralizing-emotional-debt" target="_blank" class="block p-8 bg-slate-800 border border-slate-700 rounded-2xl hover:border-green-500 hover:shadow-xl transition-all duration-300 group">
-                    <div class="flex justify-between items-start mb-4">
-                        <i class="fab fa-medium text-3xl text-slate-400 group-hover:text-green-400"></i>
-                        <span class="text-xs font-bold uppercase tracking-widest text-slate-500">Whitepaper</span>
-                    </div>
-                    <h4 class="font-bold text-xl group-hover:text-green-400">Neutralizing Emotional Debt →</h4>
-                    <p class="text-slate-400 mt-3 italic text-sm">Analyzing why the 'interest rate' of fractured systems is the silent killer of enterprise margin and how to architect a recovery.</p>
-                </a>
-
-                <a href="https://www.linkedin.com/posts/ashergiotis_sovereignperimeter-whitepaper" target="_blank" class="block p-8 bg-slate-800 border border-slate-700 rounded-2xl hover:border-green-500 hover:shadow-xl transition-all duration-300 group">
-                    <div class="flex justify-between items-start mb-4">
-                        <i class="fab fa-linkedin text-3xl text-slate-400 group-hover:text-blue-400"></i>
-                        <span class="text-xs font-bold uppercase tracking-widest text-slate-500">Case Study</span>
-                    </div>
-                    <h4 class="font-bold text-xl group-hover:text-green-400">The Sovereign Perimeter Framework →</h4>
-                    <p class="text-slate-400 mt-3 italic text-sm">A technical deep-dive into BPO logic, UX micro-copy gating, and the 28-Day Binary Pivot strategy.</p>
-                </a>
+            <div class="flex gap-6 pt-4">
+                <a href="https://linkedin.com/in/asher-giotis-813b1481" target="_blank" class="bg-slate-900 text-white px-8 py-4 rounded-xl font-bold hover:bg-green-700 transition shadow-lg inline-flex items-center"><i class="fab fa-linkedin mr-3 text-xl"></i> LinkedIn</a>
+                <a href="https://medium.com/dudeletmejam" target="_blank" class="border-2 border-slate-900 px-8 py-4 rounded-xl font-bold hover:bg-slate-100 transition inline-flex items-center"><i class="fab fa-medium mr-3 text-xl"></i> Medium</a>
             </div>
         </div>
     </section>
+
+    <section class="bg-white py-16 border-y border-slate-200">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div class="space-y-2">
+                <div class="text-4xl font-black text-green-600">99%</div>
+                <div class="text-xs font-bold uppercase tracking-widest text-slate-400">CSAT Score </div>
+            </div>
+            <div class="space-y-2">
+                <div class="text-4xl font-black text-green-600">40%</div>
+                <div class="text-xs font-bold uppercase tracking-widest text-slate-400">Workflow Efficiency [cite: 45, 108]</div>
+            </div>
+            <div class="space-y-2">
+                <div class="text-4xl font-black text-green-600">30%</div>
+                <div class="text-xs font-bold uppercase tracking-widest text-slate-400">Support Ticket Reduction [cite: 35]</div>
+            </div>
+            <div class="space-y-2">
+                <div class="text-4xl font-black text-green-600">85%</div>
+                <div class="text-xs font-bold uppercase tracking-widest text-slate-400">Rapid Telehealth Pivot [cite: 50]</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="methodology" class="py-24 bg-slate-900 text-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="mb-16">
+                <h2 class="text-4xl font-bold mb-4">The Sovereign Perimeter Methodology [cite: 131]</h2>
+                <p class="text-slate-400 max-w-2xl text-lg">My systemic approach to gathering information, validating engineering constraints, and ensuring compliance before a single line of copy is published[cite: 132, 133].</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="space-y-4">
+                    <div class="text-green-500 font-black text-xl">01</div>
+                    <h3 class="text-2xl font-bold">Discovery & Audit [cite: 137]</h3>
+                    <p class="text-slate-400">Deep dive into legacy systems, compliance requirements, and engineering constraints to identify hidden Emotional Debt[cite: 138].</p>
+                </div>
+                <div class="space-y-4">
+                    <div class="text-green-500 font-black text-xl">02</div>
+                    <h3 class="text-2xl font-bold">Async Execution [cite: 139]</h3>
+                    <p class="text-slate-400">Utilizing Jira, Loom, and Notion to drive consensus across time zones without meeting fatigue[cite: 140].</p>
+                </div>
+                <div class="space-y-4">
+                    <div class="text-green-500 font-black text-xl">03</div>
+                    <h3 class="text-2xl font-bold">Virtual Implementation [cite: 141]</h3>
+                    <p class="text-slate-400">Deploying strategic content architecture to combat Change Fatigue during complex rollouts[cite: 109].</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="deployments" class="max-w-6xl mx-auto px-6 py-24">
+        <h2 class="text-4xl font-black mb-16 tracking-tight">Strategic Deployments [cite: 94]</h2>
+        <div class="grid md:grid-cols-2 gap-12">
+            
+            <div class="stat-card p-8 rounded-xl">
+                <h4 class="font-bold text-2xl mb-1">OpenLoop Health [cite: 17]</h4>
+                <p class="text-green-700 text-xs font-bold uppercase tracking-widest mb-6">Patient Experience Architect [cite: 18]</p>
+                <p class="text-slate-600 mb-4">Architected high-volume manager escalations and HIPAA-compliant communication flows, ensuring 100% adherence to clinical regulations[cite: 23, 26].</p>
+            </div>
+
+            <div class="stat-card p-8 rounded-xl">
+                <h4 class="font-bold text-2xl mb-1">Truepill [cite: 32]</h4>
+                <p class="text-green-700 text-xs font-bold uppercase tracking-widest mb-6">Ops System Analyst [cite: 33]</p>
+                <p class="text-slate-600 mb-4">Engineered technical workflows for IVR and auto-dialers, reducing technical support tickets by 30% through comprehensive Knowledge Base architecture[cite: 35, 37].</p>
+            </div>
+
+            <div class="stat-card p-8 rounded-xl">
+                <h4 class="font-bold text-2xl mb-1">Plume [cite: 39]</h4>
+                <p class="text-green-700 text-xs font-bold uppercase tracking-widest mb-6">Care Coordinator Manager [cite: 40]</p>
+                <p class="text-slate-600 mb-4">Designed the firm's first Standard Operating Procedures (SOPs), used to train 100% of new customer success hires[cite: 43].</p>
+            </div>
+
+            <div class="stat-card p-8 rounded-xl">
+                <h4 class="font-bold text-2xl mb-1">Kind Clinic [cite: 46]</h4>
+                <p class="text-green-700 text-xs font-bold uppercase tracking-widest mb-6">Telephony Director [cite: 47]</p>
+                <p class="text-slate-600 mb-4">Enabled 85% telehealth pivot in under 3 weeks; achieved a 99% CSAT score via proactive Quality Management documentation[cite: 50, 51].</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="insights" class="bg-slate-50 py-24 border-t border-slate-200">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-black mb-16 italic">The Black Box Manifesto </h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="p-10 bg-white border border-slate-200 rounded-3xl text-left shadow-sm opacity-75">
+                    <span class="text-green-600 font-bold text-xs uppercase tracking-tighter">Drafting</span>
+                    <h4 class="text-2xl font-bold mt-4">Neutralizing Emotional Debt</h4>
+                    <p class="text-slate-500 mt-4 italic">How I utilized knowledge architecture to protect enterprise margins at Truepill[cite: 35].</p>
+                </div>
+                <div class="p-10 bg-white border border-slate-200 rounded-3xl text-left shadow-sm opacity-75">
+                    <span class="text-green-600 font-bold text-xs uppercase tracking-tighter">In Review</span>
+                    <h4 class="text-2xl font-bold mt-4">The 28-Day Binary Pivot</h4>
+                    <p class="text-slate-500 mt-4 italic">Case Study: Rapid system recovery and BPO logic in the $100M+ market[cite: 50].</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-20 text-center border-t border-slate-200">
+        <p class="text-slate-400 text-sm font-bold tracking-widest uppercase">© 2026 ASHER GIOTIS | OPERATIONAL ARCHITECT | CEDAR PARK, TX [cite: 2, 154]</p>
+    </footer>
+
+</body>
+</html>
