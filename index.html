@@ -1,4 +1,51 @@
-<section class="bg-white py-16 border-y border-slate-200">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asher GiOtis | VP of Operational Strategy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .glass-card { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); border: 1px solid #e2e8f0; }
+        .gradient-text { background: linear-gradient(90deg, #1a365d, #2ea44f); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .stat-card { border-left: 4px solid #2ea44f; background: #f8fafc; transition: 0.3s; }
+        .stat-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans leading-relaxed">
+
+    <nav class="sticky top-0 z-50 glass-card py-4 shadow-sm">
+        <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
+            <span class="font-bold text-xl tracking-tight gradient-text uppercase">ASHER GIOTIS</span>
+            <div class="hidden md:flex space-x-8 text-xs font-bold text-slate-500 uppercase tracking-widest">
+                <a href="#manifesto" class="hover:text-green-600 transition">Manifesto</a>
+                <a href="#methodology" class="hover:text-green-600 transition">Methodology</a>
+                <a href="#deployments" class="hover:text-green-600 transition">Deployments</a>
+                <a href="#insights" class="hover:text-green-600 transition">Insights</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="manifesto" class="max-w-6xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-16">
+        <div class="md:w-2/5">
+            <img src="PXL_20260405_155116585.jpg" alt="Asher GiOtis" class="rounded-2xl shadow-2xl border-8 border-white transform -rotate-1 hover:rotate-0 transition duration-500">
+        </div>
+        <div class="md:w-3/5 space-y-8">
+            <h1 class="text-6xl font-black text-slate-900 leading-tight">Neutralizing <span class="text-green-600">Emotional Debt</span> in High-Stakes Operations.</h1>
+            <p class="text-2xl text-slate-500 font-medium italic">Translating complexity into clarity for distributed teams.</p>
+            <p class="text-xl text-slate-700 max-w-2xl">
+                I am a Trauma-Informed Operational Architect. With 20 years of experience, I build the <strong>Sovereign Perimeters</strong> that allow $100M+ firms to scale without the trauma of recursive friction.
+            </p>
+            <div class="flex gap-6 pt-4">
+                <a href="https://linkedin.com/in/asher-giotis-813b1481" target="_blank" class="bg-slate-900 text-white px-8 py-4 rounded-xl font-bold hover:bg-green-700 transition shadow-lg inline-flex items-center"><i class="fab fa-linkedin mr-3 text-xl"></i> LinkedIn</a>
+                <a href="https://medium.com/dudeletmejam" target="_blank" class="border-2 border-slate-900 px-8 py-4 rounded-xl font-bold hover:bg-slate-100 transition inline-flex items-center"><i class="fab fa-medium mr-3 text-xl"></i> Medium</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white py-16 border-y border-slate-200">
         <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <a href="https://medium.com/dudeletmejam/beyond-the-manual-using-documentation-to-drive-99-csat-score-and-drive-profitability-5eec9edfd45d" target="_blank" class="group space-y-2">
                 <div class="text-4xl font-black text-green-600 group-hover:scale-110 transition">99%</div>
@@ -14,32 +61,4 @@
             </a>
             <div class="space-y-2">
                 <div class="text-4xl font-black text-green-600">85%</div>
-                <div class="text-xs font-bold uppercase tracking-widest text-slate-400">Rapid Telehealth Pivot</div>
-            </div>
-        </div>
-    </section>
-
-    <section id="insights" class="bg-slate-900 text-white py-24 border-t border-slate-800">
-        <div class="max-w-6xl mx-auto px-6 text-center">
-            <h2 class="text-4xl font-black mb-4 italic text-green-400">The Black Box Manifesto</h2>
-            <p class="text-slate-400 mb-16 max-w-2xl mx-auto text-lg">
-                Strategic thought leadership on operational architecture and the human-technical interface.
-            </p>
-            <div class="grid md:grid-cols-3 gap-8">
-                <a href="https://medium.com/dudeletmejam/beyond-the-manual-using-documentation-to-drive-99-csat-score-and-drive-profitability-5eec9edfd45d" target="_blank" class="block p-8 bg-slate-800 border border-slate-700 rounded-2xl hover:border-green-500 transition-all group text-left">
-                    <h4 class="font-bold text-xl group-hover:text-green-400">Beyond the Manual: Driving 99% CSAT →</h4>
-                    <p class="text-slate-500 mt-4 text-sm">How documentation shifts from a reactive tool to a primary driver of profitability.</p>
-                </a>
-                
-                <a href="https://medium.com/dudeletmejam/the-art-of-unambiguous-language-why-conciseness-is-critical-in-technical-ux-b35550d54f56" target="_blank" class="block p-8 bg-slate-800 border border-slate-700 rounded-2xl hover:border-green-500 transition-all group text-left">
-                    <h4 class="font-bold text-xl group-hover:text-green-400">The Art of Unambiguous Language →</h4>
-                    <p class="text-slate-500 mt-4 text-sm">Why conciseness is the critical metric for 40% efficiency gains in technical UX.</p>
-                </a>
-
-                <a href="https://medium.com/dudeletmejam/documentation-as-risk-mitigation-why-technical-writers-are-your-best-compliance-officers-1a3415d8ef67" target="_blank" class="block p-8 bg-slate-800 border border-slate-700 rounded-2xl hover:border-green-500 transition-all group text-left">
-                    <h4 class="font-bold text-xl group-hover:text-green-400">Documentation as Risk Mitigation →</h4>
-                    <p class="text-slate-500 mt-4 text-sm">Case Study: Reducing handle time by 90 seconds while securing operational compliance.</p>
-                </a>
-            </div>
-        </div>
-    </section>
+                <div class="text-xs font-bold uppercase tracking-widest text-slate-400">Rapid Telehealth Pivot
