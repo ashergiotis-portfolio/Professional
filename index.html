@@ -1,118 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asher GiOtis | Operational Architect</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        .glass-card { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); border: 1px solid #e2e8f0; }
-        .gradient-text { background: linear-gradient(90deg, #1a365d, #2ea44f); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .stat-card { border-left: 4px solid #2ea44f; background: #f8fafc; transition: 0.3s; }
-        .stat-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
-        html { scroll-behavior: smooth; }
-    </style>
-</head>
-<body class="bg-slate-50 text-slate-900 font-sans leading-relaxed">
-
-    <nav class="sticky top-0 z-50 glass-card py-4 shadow-sm">
-        <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
-            <span class="font-bold text-xl tracking-tight gradient-text uppercase">ASHER GIOTIS</span>
-            <div class="hidden md:flex space-x-8 text-xs font-bold text-slate-500 uppercase tracking-widest">
-                <a href="#manifesto" class="hover:text-green-600 transition">Manifesto</a>
-                <a href="#methodology" class="hover:text-green-600 transition">Methodology</a>
-                <a href="#deployments" class="hover:text-green-600 transition">Deployments</a>
-                <a href="#book" class="hover:text-green-600 transition">The Book</a>
-            </div>
-        </div>
-    </nav>
-
-    <section id="manifesto" class="max-w-6xl mx-auto px-6 py-24 flex flex-col md:flex-row items-center gap-16">
-        <div class="md:w-2/5">
-            <img src="asher-profile.jpg" alt="Asher GiOtis" class="rounded-2xl shadow-2xl border-8 border-white transform -rotate-1 hover:rotate-0 transition duration-500">
-        </div>
-        <div class="md:w-3/5 space-y-8">
-            <h1 class="text-6xl font-black text-slate-900 leading-tight">Neutralizing <span class="text-green-600">Emotional Debt</span> in High-Stakes Operations.</h1>
-            <p class="text-2xl text-slate-500 font-medium italic">Architecting integrity into technical ecosystems.</p>
-            <p class="text-xl text-slate-700 max-w-2xl">
-                I am an <strong>Operational Architect</strong>. With over 20 years of experience, I build the <strong>Sovereign Perimeters</strong> that allow enterprise-scale firms to scale without the trauma of recursive friction or statutory risk.
-            </p>
-            <div class="flex gap-6 pt-4">
-                <a href="https://linkedin.com/in/asher-giotis-813b1481" target="_blank" class="bg-slate-900 text-white px-8 py-4 rounded-xl font-bold hover:bg-green-700 transition shadow-lg inline-flex items-center"><i class="fab fa-linkedin mr-3 text-xl"></i> LinkedIn</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="bg-white py-16 border-y border-slate-200">
-        <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div class="space-y-2">
-                <div class="text-4xl font-black text-green-600">99%</div>
-                <div class="text-xs font-bold uppercase tracking-widest text-slate-400">Target CSAT</div>
-            </div>
-            <div class="space-y-2">
-                <div class="text-4xl font-black text-green-600">40%</div>
-                <div class="text-xs font-bold uppercase tracking-widest text-slate-400">Efficiency Lift</div>
-            </div>
-            <div class="space-y-2">
-                <div class="text-4xl font-black text-green-600">55%</div>
-                <div class="text-xs font-bold uppercase tracking-widest text-slate-400">Training Optimization</div>
-            </div>
-            <div class="space-y-2">
-                <div class="text-4xl font-black text-green-600">Zero</div>
-                <div class="text-xs font-bold uppercase tracking-widest text-slate-400">Variance Standard</div>
-            </div>
-        </div>
-    </section>
-
-    <section id="methodology" class="py-32 bg-slate-900 text-white">
+<section class="bg-white py-16 border-y border-slate-200">
         <div class="max-w-6xl mx-auto px-6">
-            <div class="mb-16">
-                <h2 class="text-4xl font-bold mb-4 text-white">The Sovereign Perimeter Methodology</h2>
-                <p class="text-slate-400 max-w-2xl text-lg">A systematic approach to identifying systemic ambiguity and enforcing technical integrity.</p>
-            </div>
-            <div class="grid md:grid-cols-3 gap-12 text-left">
-                <div class="space-y-4">
-                    <div class="text-green-500 font-black text-xl">01</div>
-                    <h3 class="text-2xl font-bold">Risk Architecture Audit</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Identifying hidden Emotional Debt and statutory friction points within legacy operational workflows.</p>
+            <p class="text-center text-xs font-bold uppercase tracking-widest text-slate-400 mb-10">Architectural Impact Benchmarks</p>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div class="space-y-2">
+                    <div class="text-4xl font-black text-green-600">99%</div>
+                    <div class="text-xs font-bold uppercase tracking-widest text-slate-500">CSAT Retention</div>
                 </div>
-                <div class="space-y-4">
-                    <div class="text-green-500 font-black text-xl">02</div>
-                    <h3 class="text-2xl font-bold text-white">Binary Choice Enforcements</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Implementing technical logic gates that eliminate "shadow documents" and force one-call resolution at the perimeter.</p>
+                <div class="space-y-2">
+                    <div class="text-4xl font-black text-green-600">40%</div>
+                    <div class="text-xs font-bold uppercase tracking-widest text-slate-500">Efficiency Lift</div>
                 </div>
-                <div class="space-y-4">
-                    <div class="text-green-500 font-black text-xl">03</div>
-                    <h3 class="text-2xl font-bold text-white">Asset Preservation</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Protecting human capital bandwidth by automating the high-cost administrative "tax" through AI orchestration.</p>
+                <div class="space-y-2">
+                    <div class="text-4xl font-black text-green-600">55%</div>
+                    <div class="text-xs font-bold uppercase tracking-widest text-slate-500">Training Optimization</div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="deployments" class="max-w-6xl mx-auto px-6 py-32">
-        <h2 class="text-4xl font-black mb-16 tracking-tight">Strategic Deployments</h2>
-        <div class="grid md:grid-cols-2 gap-12 text-left">
-            <div class="stat-card p-8 rounded-xl">
-                <h4 class="font-bold text-2xl mb-1 text-slate-900">Health-Tech Enterprise</h4>
-                <p class="text-green-700 text-xs font-bold uppercase tracking-widest mb-6">Fractional Operational Architect</p>
-                <p class="text-slate-600 mb-4">Developed HIPAA-compliant response frameworks and technical specifications for custom CRM/EHR integrations.</p>
-            </div>
-            <div class="stat-card p-8 rounded-xl">
-                <h4 class="font-bold text-2xl mb-1 text-slate-900">SaaS Pharmacy Platform</h4>
-                <p class="text-green-700 text-xs font-bold uppercase tracking-widest mb-6">Systems Operations Analyst</p>
-                <p class="text-slate-600 mb-4">Architected comprehensive telephony knowledge bases and automated escalation workflows to reduce support overhead.</p>
-            </div>
-            <div class="stat-card p-8 rounded-xl">
-                <h4 class="font-bold text-2xl mb-1 text-slate-900">Digital Health Scale-Up</h4>
-                <p class="text-green-700 text-xs font-bold uppercase tracking-widest mb-6">Telephony & Systems Director</p>
-                <p class="text-slate-600 mb-4">Managed complex telehealth pivots and quality management frameworks during rapid market expansion.</p>
-            </div>
-            <div class="stat-card p-8 rounded-xl">
-                <h4 class="font-bold text-2xl mb-1 text-slate-900">Clinical Operations Group</h4>
-                <p class="text-green-700 text-xs font-bold uppercase tracking-widest mb-6">Care Strategy Manager</p>
-                <p class="text-slate-600 mb-4">Optimized distributed team workflows through surgical technical documentation and unambiguous process design.</p>
+                <div class="space-y-2">
+                    <div class="text-4xl font-black text-green-600">700%</div>
+                    <div class="text-xs font-bold uppercase tracking-widest text-slate-500">Organic Scale</div>
+                </div>
             </div>
         </div>
     </section>
@@ -120,25 +25,22 @@
     <section id="book" class="bg-slate-900 text-white py-32 border-t border-slate-800">
         <div class="max-w-6xl mx-auto px-6 text-center">
             <h2 class="text-4xl font-black mb-4 italic text-green-400">The Sovereign Perimeter</h2>
-            <p class="text-slate-400 mb-8 max-w-2xl mx-auto text-lg leading-relaxed">
-                An Architect’s Guide to Operational Integrity and Human Capital Preservation.
+            <p class="text-slate-400 mb-12 max-w-2xl mx-auto text-lg leading-relaxed">
+                Strategic methodology on operational architecture, human capital preservation, and the neutralization of systemic emotional debt.
             </p>
-            <div class="inline-block p-8 bg-slate-800 border-2 border-green-500 rounded-2xl shadow-2xl">
-                <h4 class="font-bold text-2xl text-white">Full Manuscript Coming 2026</h4>
-                <p class="text-slate-500 mt-4 text-sm italic">Strategic whitepapers and consultation inquiries available upon request.</p>
+            <div class="grid md:grid-cols-3 gap-8 text-left">
+                <div class="p-8 bg-slate-800 border border-slate-700 rounded-2xl">
+                    <h4 class="font-bold text-xl text-green-400">The 40% Pivot</h4>
+                    <p class="text-slate-500 mt-4 text-sm leading-relaxed">A framework for reducing operational friction by 40% through the elimination of linguistic ambiguity. <span class="text-slate-300 block mt-2 text-xs font-bold uppercase tracking-tighter">Available in Full Manuscript</span></p>
+                </div>
+                <div class="p-8 bg-slate-800 border border-slate-700 rounded-2xl">
+                    <h4 class="font-bold text-xl text-green-400">The 55% Reset</h4>
+                    <p class="text-slate-500 mt-4 text-sm leading-relaxed">Methodology for decreasing onboarding time by 55% while neutralizing change fatigue. <span class="text-slate-300 block mt-2 text-xs font-bold uppercase tracking-tighter">Available in Full Manuscript</span></p>
+                </div>
+                <div class="p-8 bg-slate-800 border border-slate-700 rounded-2xl">
+                    <h4 class="font-bold text-xl text-green-400">Zero-Dollar Scale</h4>
+                    <p class="text-slate-500 mt-4 text-sm leading-relaxed">Leveraging the 'Zero-Dollar Growth Tax' to drive 700% organic growth through human-centered tech logic. <span class="text-slate-300 block mt-2 text-xs font-bold uppercase tracking-tighter">Available in Full Manuscript</span></p>
+                </div>
             </div>
         </div>
     </section>
-
-    <footer class="py-20 text-center border-t border-slate-200">
-        <p class="text-slate-400 text-sm font-bold tracking-widest uppercase">© 2026 ASHER GIOTIS | OPERATIONAL ARCHITECT | CEDAR PARK, TX</p>
-    </footer>
-
-</body>
-</html>
-    <footer class="py-20 text-center border-t border-slate-200">
-        <p class="text-slate-400 text-sm font-bold tracking-widest uppercase">© 2026 ASHER GIOTIS | OPERATIONAL ARCHITECT | CEDAR PARK, TX</p>
-    </footer>
-
-</body>
-</html>
